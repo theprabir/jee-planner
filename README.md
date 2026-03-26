@@ -70,10 +70,17 @@ Works seamlessly on:
 📬 Connect With Me
 Developer: Prabir Kumar Das
 
-https://img.shields.io/badge/GitHub-@theprabir-181717?style=flat-square&logo=github
-https://img.shields.io/badge/Twitter-@andprabir-1DA1F2?style=flat-square&logo=twitter
-https://img.shields.io/badge/Instagram-@theprabir-E4405F?style=flat-square&logo=instagram
-https://img.shields.io/badge/Website-theprabir.com-000000?style=flat-square&logo=vercel
+<div id="badges">
+  <a href="your-linkedin-URL">
+    <img src="https://img.shields.io" alt="LinkedIn Badge"/>
+  </a>
+  <a href="your-youtube-URL">
+    <img src="https://img.shields.io" alt="Youtube Badge"/>
+  </a>
+  <a href="your-twitter-URL">
+    <img src="https://img.shields.io" alt="Twitter Badge"/>
+  </a>
+</div>
 
 🤝 Contributing
 Contributions are welcome! Feel free to:
