@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>9-Day Ascend | JEE Planner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-container">
+  <div class="top-header">
+    <div class="logo">
+      <h1><i class="fas fa-calendar-check"></i> 9-Day Ascend</h1>
+      <p>Lecture + PYQs · JEE Main blueprint</p>
+    </div>
+    <div class="stats-container">
+      <div class="stat-card" id="overallStatCard">
+        <div class="stat-label"><i class="fas fa-chart-line"></i> OVERALL</div>
+        <div class="big-number" id="globalPercent">0%</div>
+        <div class="small-detail" id="globalTasks">0/0 tasks</div>
+      </div>
+      <div class="stat-card" id="activeSubjectStat">
+        <div class="stat-label" id="activeSubjectLabel"><i class="fas fa-book-open"></i> PHYSICS</div>
+        <div class="big-number" id="subjectPercent">0%</div>
+        <div class="small-detail" id="subjectTasks">0/0 tasks</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab order: Physics, Maths, Chemistry (Maths in middle) -->
+  <div class="subject-tabs">
+    <button class="tab-btn active" data-subject="physics"><i class="fas fa-atom"></i> PHYSICS</button>
+    <button class="tab-btn" data-subject="maths"><i class="fas fa-square-root-alt"></i> MATHEMATICS</button>
+    <button class="tab-btn" data-subject="chemistry"><i class="fas fa-flask"></i> CHEMISTRY</button>
+  </div>
+
+  <!-- panels -->
+  <div id="physics-panel" class="subject-panel active-panel"></div>
+  <div id="maths-panel" class="subject-panel"></div>
+  <div id="chemistry-panel" class="subject-panel"></div>
+
+  <div class="reset-buttons">
+    <button id="resetAllProgressBtn" class="btn-sm"><i class="fas fa-undo-alt"></i> Reset all checkboxes</button>
+    <button id="clearAllDataBtn" class="btn-sm btn-danger"><i class="fas fa-trash-alt"></i> Wipe all progress</button>
+  </div>
+  <footer>⚡ Auto-saves locally | Track every lecture + PYQ | Based on 9‑day power plan</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
